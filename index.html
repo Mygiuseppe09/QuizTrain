@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QuizTrain for IoT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src='script.js' defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1> QuizTrain for IoT</h1>
+    <h4 class="by"> Sviluppato da Giuseppe Leocata </h4>
+
+    <div class="container hidden">
+        <h4 class="question">
+                
+        </h4>
+        <ul class="question">
+
+        </ul>
+        <div class="answer_container hidden">
+            <h4 class="answer">
+
+            </h4>
+            <div class="image_container hidden">
+                <img src="" alt="image not found">
+            </div>
+        </div>
+    </div>
+    <div class="important hidden">
+         DOMANDA MOLTO PROBABILE
+    </div>
+
+    <div class="button hidden show" id="showHideAnswer">
+        <p>MOSTRA RISPOSTA</p>
+    </div>
+
+    <div class="button" id="randomQuestion">
+        <p>OTTIENI UNA DOMANDA RANDOM</p>
+    </div>
+
+    <h1 id="finish" class="hidden"> Domande terminate, aggiorna la pagina per riallenarti </h1>
+
+    <div class="info_container">
+        <p class="info" id="counter">Numero domande totali: <span>  </span> </p>
+        <p class="info" id="remaining">Domande da mostrare rimanenti: <span> </span> </p>
+    </div>
+
+</body>
+</html>

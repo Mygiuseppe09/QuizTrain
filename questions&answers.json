@@ -1,0 +1,1173 @@
+[
+  {
+    "question": "Il PWM in un microcontrollore può essere utilizzato per?",
+    "options": [
+      "implementare un semplice convertitore digitale-analogico",
+      "Per estendere il range di valori di un timer convenzionale",
+      "Per generare un segnale di clock a risoluzione maggiore",
+      "Per implementare un convertitore da analogico a digitale"
+    ],
+    "answer": "implementare un semplice convertitore digitale-analogico"
+  },
+  {
+    "question": "A cosa serve la funzionalità Input Capture di un Timer?",
+    "options": [
+      "A digitalizzare il valore catturato in un pin analogico",
+      " A catturare il valore di tensione analogico letto in un pin di input",
+      "A digitalizzare il valore catturato in un pin analogico",
+      "A catturare il timestamp di un evento"
+    ],
+    "answer": "A catturare il timestamp di un evento"
+  },
+  {
+    "question": "Dove risiedono, in un microcontrollore, le variabili di un programma?",
+    "options": [
+      "In una Flash",
+      "In una memoria SRAM",
+      "Ina una memoria DRAM",
+      "In nessuna delle precedenti"
+    ],
+    "answer": "nella memoria SRAM"
+  },
+  {
+    "question": "Tramite quale funzione, in Arduino, si utilizza la PWM?",
+    "options": [
+      "analogWrite",
+      "analogRead",
+      "digitalRead",
+      "digitalWrite"
+    ],
+    "answer": "analogWrite"
+  },
+  {
+    "question": "Dove si trova, in Arduino, la funzionalità PWM?",
+    "options": [
+      "Necessita di una chiamata ad una apposita Interrupt Service Routine (ISR)",
+      "solo in alcuni pin",
+      "Può essere impostata a piacimento, ma su di un numero limitato di pin a scelta",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Solo in alcuni pin"
+  },
+  {
+    "question": "In Arduino, quando e quante volte viene eseguita la funzione setup()?",
+    "options": [
+      "Può essere eseguita opzionalmente, solo se necessario, mediante apposita chiamata",
+      "All’uscita della funzione loop()",
+      "Alla fine di ogni ripetizione della funzione loop()",
+      "Una sola volta ad ogni avvio del programma"
+    ],
+    "answer": "Una sola volta ad ogni avvio del programma"
+  },
+  {
+    "question": "L’utilizzo della funzionalità Output Compare di un Timer serve...",
+    "options": [
+      "A catturare il timestamp di un evento",
+      "A catturare il valore di tensione analogico letto in un pin di input",
+      "A digitalizzare il valore catturato in un pin analogico",
+      "A far accadere un evento su di un pin quando il timer raggiunge un certo valore"
+    ],
+    "answer": "A far accadere un evento su di un pin quando il timer raggiunge un certo valore"
+  },
+  {
+    "question": "Un Output Compare di un Timer potrebbe servire...",
+    "options": [
+      "Ad evitare la meta-stabilità",
+      "Come alternativa al pull-up resistor",
+      "A realizzare un PWM",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "A realizzare un PWM"
+  },
+  {
+    "question": "Un timer può servire...",
+    "options": [
+      "A evitare l’utilizzo di un pull-up resistor",
+      "A risolvere il problema della meta-stabilità",
+      "Ad implementare internamente un PWM",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Ad implementare internamente un PWM"
+  },
+  {
+    "question": "Un pin che supporta il PWM con segnale di 0 e 5V e con un periodo di 1 millisecondo...",
+    "options": [
+      "Può generare qualunque valore di output che sia compreso tra i 0V ed i 5V",
+      "Potrebbe consentire di generare un segnale di circa 1V restando al valore alto per 200 microsecondi per ogni durata del periodo",
+      "Non potrebbe generare segnali oscillanti di durata minore di 1 millisecondo",
+      "Può generare qualunque valore di output che sia compreso tra i 0V ed i 5V"
+    ],
+    "answer": "Potrebbe consentire di generare un segnale di circa 1V restando al valore alto per 200 microsecondi per ogni durata del periodo"
+  },
+  {
+    "question": "A differenza di un microprocessore, un microcontrollore..",
+    "options": [
+      "Integra nello stesso chip diversi componenti / periferiche",
+      "Possiede una potenza computazionale mediamente superiore",
+      "Possiede sempre una cache memory separata tra istruzioni e dati",
+      "Tutte le opzioni riportate sono vere"
+    ],
+    "answer": "Integra nello stesso chip diversi componenti / periferiche"
+  },
+  {
+    "question": "Un controllore dispone sempre di porte di I/O?",
+    "options": [
+      "Vero",
+      "Vero, per ogni porta digitale c’è sempre una gemella analogica",
+      "Solo se è un microcontrollore per applicazioni control-dominated",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Vero"
+  },
+  {
+    "question": "Due microcontrollori appartenenti alla stessa famiglia...",
+    "options": [
+      "Sono di norma non compatibili a livello di set di istruzioni",
+      "Comprendono le stesse periferiche seppure configurate in modo diverso",
+      "Differiscono solo per il taglio e la tecnologia della memoria integrata",
+      " Sono di norma compatibili a livello di set di istruzioni"
+    ],
+    "answer": "Sono compatibili a livello di set di istruzioni"
+  },
+  {
+    "question": "In un microcontrollore, un generico pin...",
+    "options": [
+      "Può essere configurato a run-time come input o output solo in fase di setup",
+      "Può essere configurato a run-time come input o output",
+      "Se non è gestito deve essere cortocircuitato a massa",
+      "Nessuna delle precedenti"
+    ],
+    "answer": "Può essere configurato a run-time come input o output"
+  },
+  {
+    "question": "Il funzionamento dei pin di un microcontrollore, internamente...",
+    "options": [
+      "Viene fissato a priori dal costruttore, ed è immodificabile",
+      "Viene determinato da registri che ne determinano la direzione, il dato in output ed il dato in input",
+      "Viene determinato da dei corrispondenti valori di impostazione che stanno in una DRAM",
+      "Viene determinato da un registro che ne determina la velocità"
+    ],
+    "answer": "Viene determinato da registri che ne determinano la direzione, il dato in output ed il dato in input"
+  },
+  {
+    "question": "In un microcontrollore, il codice del programma viene memorizzato in...",
+    "options": [
+      "Una Flash EEPROM",
+      "Una static RAM (SRAM)",
+      "Una memoria dinamica DRAM",
+      "Una qualunque tra quelle elencate"
+    ],
+    "answer": "EEPROM"
+  },
+  {
+    "question": "L’utilizzo di un microcontrollore è auspicabile...",
+    "options": [
+      "In applicazioni che necessitano molta RAM e ROM",
+      "In applicazioni computazionalmente complesse",
+      "In applicazioni dominate dall’I/O",
+      "In applicazioni general purpose"
+    ],
+    "answer": "In applicazioni dominate dall’I/O"
+  },
+  {
+    "question": "La memoria volatile in un microcontrollore è generalmente...",
+    "options": [
+      "Una memoria dinamica DRAM",
+      "Una static RAM (SRAM)",
+      "Una Flash EEPROM",
+      "Può essere una qualunque tra quelle elencate"
+    ],
+    "answer": "Una static RAM (SRAM)"
+  },
+  {
+    "question": "Gli spazi degli indirizzi di SRAM, Flash e EEPROM...",
+    "options": [
+      "Devono essere mappati in un unico spazio logico",
+      "Devono rimanere necessariamente in spazi logici separati",
+      "Possono essere sia mappati in uno spazio unico, che in spazi separati",
+      "Devono essere mappati in un unico spazio logico"
+    ],
+    "answer": "Possono essere sia mappati in uno spazio unico, che in spazi separati"
+  },
+  {
+    "question": "Per risolvere il problema della meta-stabilità...",
+    "options": [
+      "Gli ingressi sono sovra-campionati",
+      "Gli ingressi sono filtrati da un synchronizer",
+      "Gli output sono sovra-campionati",
+      " Si usa una routine software"
+    ],
+    "answer": "Gli ingressi sono filtrati da un synchronizer"
+  },
+  {
+    "question": "Un trigger di Schmitt serve a...",
+    "options": [
+      "Limitare in modo deterministico i tempi di permanenza (o la permanenza) del segnale nella regione indeterminata tra V_low e V_high",
+      "Minimizzare il consumo di potenza dovuto alle transizioni di segnale high/low",
+      "Aumentare il numero di bit di risoluzione nell’acquisizione di un segnale analogico",
+      "Settare in modo dinamico nuovi valori di soglia V_low e V_high"
+    ],
+    "answer": "Limitare in modo deterministico i tempi di permanenza (o la permanenza) del segnale nella regione indeterminata tra V_low e V_high"
+  },
+  {
+    "question": "La risoluzione del convertitore A/D in un microcontrollore è di 10 bit per un range di tensioni da 0V a 5V. L’acquisizione del valore 512 identifica...",
+    "options": [
+      "Un valore di tensione fuori range",
+      "Un valore di tensione di circa 1.5 V",
+      "Un valore di tensione di circa 2.5 V",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Un valore di tensione di circa 2.5V",
+    "solution": "solutions/80f8645d-a344-423a-aca4-2f67fe194c6d.png"
+  },
+  {
+    "question": "La risoluzione del convertitore D/A in un microcontrollore è di 8 bit per un range di tensioni da 0V a 5V. L’acquisizione del valore 512 identifica...",
+    "options": [
+      "Un valore di tensione fuori range",
+      "Un valore di tensione di circa 1.5 V",
+      "Un valore di tensione di circa 2.5 V",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Un valore di tensione fuori range",
+    "soluton": "solutions/ffa86c60-0cfb-4f48-a275-d8bf095da5aa"
+  },
+  {
+    "question": "Il convertitore A/D mediante Tracking...",
+    "options": [
+      "Utilizza internamente un convertitore digitale/analogico",
+      "Utilizza internamente un convertitore analogico/digitale",
+      "Insegue il valore attuale di tensione in input al fine di stabilizzarlo",
+      "Tutte le altre informazioni sono corrette"
+    ],
+    "answer": "Utilizza internamente un convertitore digitale/analogico"
+  },
+  {
+    "question": "Il Successive Approximation Converter...",
+    "options": [
+      "Risolve i problemi dovuti ai pin floating senza pull resistor",
+      "Risolve i problemi di meta-stabilità",
+      "Risolve i problemi del Binary Weighted Resistor converter",
+      "Risolve i problemi del Tracking Converter"
+    ],
+    "answer": "Risolve i problemi del Tracking Converter"
+  },
+  {
+    "question": "Il Binary-Weighted Resistor Circuit...",
+    "options": [
+      "Può essere utilizzato per implementare un convertitore da analogico a digitale",
+      "Utilizza un insieme di resistenze di valore diverso",
+      "Serve in caso di pin floating (non connessi ad alcun input)",
+      "Serve a risolvere il problema della meta-stabilità"
+    ],
+    "answer": "Utilizza un insieme di resistenze di valore diverso"
+  },
+  {
+    "question": "Un sensore...",
+    "options": [
+      "È un dispositivo di input",
+      "È un dispositivo di input",
+      "Può essere configurato per essere sia input che output",
+      "Nessuna delle precedenti"
+    ],
+    "answer": "È un dispositivo di input"
+  },
+  {
+    "question": "Un esempio di sensore può essere...",
+    "options": [
+      "Un regolatore di tensione",
+      "Un LED",
+      "Una fotoresistenza",
+      "Tutti gli esempi riportati"
+    ],
+    "answer": "Una fotoresistenza"
+  },
+  {
+    "question": "Un sensore di tipo resistivo, per essere utilizzato su Arduino...",
+    "options": [
+      "Deve essere messo in serie ad una resistenza",
+      "Non necessita di ulteriori componenti",
+      "Deve essere messo in serie ad un circuito RC",
+      "Nessuna delle precedenti"
+    ],
+    "answer": "Deve essere messo in serie ad una resistenza"
+  },
+  {
+    "question": "In un microcontrollore è possibile pilotare più pin di I/O?",
+    "options": [
+      "Falso",
+      "Dipende dal set di istruzioni del core del microcontrollore",
+      "Vero",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Vero"
+  },
+  {
+    "question": "In un'interfaccia seriale, come sono inviati i bit?",
+    "options": [
+      "I bit sono inviati in parallelo ma il modulo di destinazione li serializza",
+      "I bit sono inviati in sequenza un bit alla volta",
+      "I bit sono inviati a gruppi di due: informazione e check",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "in sequenza, un bit alla volta"
+  },
+  {
+    "question": "In un'interfaccia parallela...",
+    "options": [
+      "Il dato da trasmettere viene partizionato in parole di s bit",
+      "Richiede sempre una linea per il controllo di parità",
+      "Il dato da trasmettere viene partizionato in parole di 8 bit",
+      "Si utilizzano diverse linee fisiche al fine di trasmettere più bit contemporaneamente"
+    ],
+    "answer": "Si utilizzano diverse linee fisiche al fine di trasmettere più bit contemporaneamente"
+  },
+  {
+    "question": "Il vantaggio di un'interfaccia seriale rispetto ad una parallela è...",
+    "options": [
+      "La comunicazione è efficiente in termini di risorse utilizzate",
+      "E’ meno immune al rumore",
+      "Sono equivalenti in termini di immunità al rumore",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "La comunicazione è efficiente in termini di risorse utilizzate"
+  },
+  {
+    "question": "In un'interfaccia differential",
+    "options": [
+      "Ogni bit trasmesso è la differenza con il bit precedentemente trasmesso",
+      "Il trasmettitore ed il ricevitore condividono la stessa massa",
+      "L’informazione relativa ad un singolo bit è trasmesso come differenza di potenziale tra due linee",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "L’informazione relativa ad un singolo bit è trasmesso come differenza di potenziale tra due linee"
+  },
+  {
+    "question": "In un'interfaccia single-ended...",
+    "options": [
+      "Il trasmettitore ed il ricevitore condividono la stessa massa",
+      "Ogni bit è trasmesso su due linee singole (cioè non comunicanti tra loro)",
+      "Ogni bit trasmesso è seguito da un bit di end",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Il trasmettitore ed il ricevitore condividono la stessa massa"
+  },
+  {
+    "question": "La comunicazione attraverso un'interfaccia differential rispetto a single-ended...",
+    "options": [
+      "E’ più immune al rumore",
+      "E’ meno immune al rumore",
+      "Sono equivalenti in termini di immunità al rumore",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "E’ più immune al rumore"
+  },
+  {
+    "question": "In un'interfaccia sincrona...",
+    "options": [
+      "I clock del trasmettitore e ricevitore devono avere la stessa frequenza",
+      "I clock del trasmettitore e ricevitore devono avere la stessa fase",
+      "I clock del trasmettitore e ricevitore sono tra loro fisicamente collegati",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "I clock del trasmettitore e ricevitore sono tra loro fisicamente collegati"
+  },
+  {
+    "question": "In un'interfaccia Asincrona...",
+    "options": [
+      "I clock del trasmettitore e ricevitore devono avere la stessa frequenza",
+      "I clock del trasmettitore e ricevitore non sono tra loro fisicamente collegati",
+      "I clock del trasmettitore e ricevitore sono tra loro fisicamente collegati",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "I clock del trasmettitore e ricevitore NON sono tra loro fisicamente collegati"
+  },
+  {
+    "question": "La comunicazione attraverso un'interfaccia asincrona rispetto ad una sincrona è in generale...",
+    "options": [
+      "Uguale",
+      "Più lenta",
+      "Più veloce",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Più lenta"
+  },
+  {
+    "question": "In una interfaccia I2C, il significato del valore che si trova nel segnale SDA...",
+    "options": [
+      "Dipende dal valore attuale del segnale di clock SCL",
+      "Dipende dalla frequenza di oscillazione del segnale, ogni frequenza avente un significato diverso",
+      "Dipende dal livello di tensione analogico che si trova su SDA",
+      "Serve a selezionare lo slave con cui il master vuole comunicare"
+    ],
+    "answer": "Dipende dal valore attuale del segnale di clock SCL"
+  },
+  {
+    "question": "Se un pin di ingresso non è sempre pilotato (floating pin)",
+    "options": [
+      "Occorre utilizzare una resistenza di pull-up",
+      "Le operazioni di lettura da quel pin devono essere precedute da un controllo per verificare la presenza di un dato",
+      "Occorre configurare quel pin come noisy-pin",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Occorre utilizzare una resistenza di pull-up"
+  },
+  {
+    "question": "Un pull resistor può essere utile...",
+    "options": [
+      "Per verificare la presenza di un dato prima di una lettura",
+      "Se un pin di ingresso non è sempre pilotato (floating pin)",
+      "Per evitare la meta-stabilità",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Se un pin di ingresso non è sempre pilotato (floating pin)"
+  },
+  {
+    "question": "Il Sample and Hold Stage...",
+    "options": [
+      "Serve a risolvere il problema della meta-stabilità",
+      "Può essere utilizzato per implementare un convertitore da analogico a digitale",
+      "Serve a mantenere l’input stabile durante il campionamento",
+      "Serve in caso di pin floating (non connessi ad alcun input)"
+    ],
+    "answer": "Serve a mantenere l’input stabile durante il campionamento"
+  },
+  {
+    "question": "In un microcontrollore, il numero di I/O pin è generalmente...",
+    "options": [
+      "Nell’ordine delle centinaia",
+      "Nell’ordine delle migliaia",
+      "Nell’ordine delle decine",
+      "Dipendente dalla quantità di SRAM disponibile"
+    ],
+    "answer": "Nell’ordine delle decine"
+  },
+  {
+    "question": "Un pin di output (di un microcontrollore)...",
+    "options": [
+      "Può generare solo due livelli di tensione, ma solo se supporta il PWM",
+      "Può generare solo due livelli di tensione",
+      "Se non è inizializzato si trova in alta impedenza",
+      "Può generare qualunque livello di tensione che sia tra 0V e 5V"
+    ],
+    "answer": "Può generare solo due livelli di tensione"
+  },
+  {
+    "question": "All’aumentare del valore di prescale del prescaler di un timer...",
+    "options": [
+      "La risoluzione rimane costante",
+      "La risoluzione migliora",
+      "Il prescale non ha nessun impatto sulla risoluzione del timer",
+      "La risoluzione peggiora"
+    ],
+    "answer": "La risoluzione peggiora"
+  },
+  {
+    "question": "All’aumentare del valore di prescale del prescaler di un timer...",
+    "options": [
+      "La risoluzione rimane costante",
+      "La risoluzione migliora",
+      "Il prescale non ha nessun impatto sulla risoluzione del timer",
+      "la durata misurabile dal timer aumenta"
+    ],
+    "answer": "la durata misurabile dal timer aumenta"
+  },
+  {
+    "question": "Il prescaler può filtrare il system clock in ingresso ad un timer...",
+    "options": [
+      "Per evitare la meta-stabilità",
+      "Per migliorare la risoluzione nella misura del tempo del timer",
+      "Per estendere l’intervallo di tempo misurabile",
+      "Per velocizzare il timer"
+    ],
+    "answer": "Per estendere l’intervallo di tempo misurabile"
+  },
+  {
+    "question": "Considerando bit sempre più significativi nel prescaler posto all’ingresso di un timer...",
+    "options": [
+      "Nessun effetto, il timer avanzerà sempre alla stessa frequenza del clock",
+      "Nessun effetto, il timer avanzerà sempre alla stessa frequenza del prescaler",
+      "La velocità del timer diventa sempre più elevata rispetto al clock",
+      "La velocità del timer diventa sempre più ridotta rispetto al clock"
+    ],
+    "answer": "La velocità del timer diventa sempre più RIDOTTA rispetto al clock"
+  },
+  {
+    "question": "Un Data Direction Register (DDR)...",
+    "options": [
+      "Imposta la modalità di un insieme di pin",
+      "Imposta la modalità di un singolo pin",
+      "Serve alla comunicazione per andare più veloce",
+      "E’ usata nella porta seriale per specificare la direzione della comunicazione"
+    ],
+    "answer": "Imposta la modalità di un insieme di pin"
+  },
+  {
+    "question": "Un'interfaccia UART (Universal Asynchronous Receiver-Transmitter)",
+    "options": [
+      "Utilizza una sola linea per trasmettere e ricevere i dati",
+      "Utilizza due linee rispettivamente di trasmissione e di ricezione",
+      "Utilizza due linee per la trasmissione ed una linea per la ricezione",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Utilizza due linee rispettivamente di trasmissione e di ricezione"
+  },
+  {
+    "question": "In un'interfaccia UART, il baud rate",
+    "options": [
+      "E’ correlato alla lunghezza in bit del dato trasmesso",
+      "Rappresenta un parametro di configurazione",
+      "Viene automaticamente definito nella fase di handshaking tra trasmettitore e ricevitore",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Rappresenta un parametro di configurazione"
+  },
+  {
+    "question": "In un'interfaccia UART, il parity bit",
+    "options": [
+      "Viene sempre generato",
+      "Non è implementato",
+      "Rappresenta un parametro di configurazione",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Rappresenta un parametro di configurazione"
+  },
+  {
+    "question": "Il numero di bit che compongono il dato in una UART",
+    "options": [
+      "Rappresenta un parametro di configurazione",
+      "E’ fisso e definito dallo standard",
+      "E’ variabile e dipende dal baud rate",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Rappresenta un parametro di configurazione => n.b. dipende dal numero di bit di stop che si impostano"
+  },
+  {
+    "question": "In una UART, per gestire il drift dell’oscillatore",
+    "options": [
+      "Viene effettuata una fase di handshaking all’inizio di ogni frame",
+      "Il ricevitore effettua un oversampling del segnale",
+      "Viene usato lo stesso segnale di clock per il trasmettitore e per il ricevitore",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Il ricevitore effettua un oversampling del segnale"
+  },
+  {
+    "question": "In un sistema di I/O con interrupt, il massimo throughput di I/O ottenibile scambiando N bytes dipende da questi ultimi?",
+    "options": [
+      "Non dipende da N",
+      "Dipende da N",
+      "Non dipende dall’interrupt overhead W",
+      "Nessuna delle precedenti"
+    ],
+    "answer": "No, NON dipende da N"
+  },
+  {
+    "question": "Considerando l’utilizzo dell’interrupt come tecnica di gestione dell’I/O, quale delle seguenti affermazioni è vera?",
+    "options": [
+      "L’interrupt overhead W può essere azzerato se si utilizza una gestione con vettore di interrupt",
+      "La priorità serve a velocizzare l’esecuzione della ISR",
+      "Il vettore di interrupt indica la priorità di gestione della ISR",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Nessuna delle opzioni riportate"
+  },
+  {
+    "question": "Nella gestione dell’I/O con interrupt...",
+    "options": [
+      "L’utilizzo della tecnica dell’interrupt vettorizzato diminuisce l’interrupt overhead W",
+      "Il vettore di interrupt elimina il problema di gestire la priorità",
+      "Il vettore di interrupt viene generato dalla CPU",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "L’utilizzo della tecnica dell’interrupt vettorizzato diminuisce l’interrupt overhead W"
+  },
+  {
+    "question": "L’interrupt vector table...",
+    "options": [
+      "Consente di individuare l’indirizzo della routine di gestione dell’interrupt",
+      "Il registro di mascheramento delle interruzioni è un registro di interi",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Consente di individuare l’indirizzo della routine di gestione dell’interrupt"
+  },
+  {
+    "question": "Il meccanismo di gestione delle interruzioni (interrupt) in un microcontrollore, gli consente...",
+    "options": [
+      "Di comunicare simultaneamente ad un insieme di destinatari",
+      "Di generare un evento ogni volta che sul bus dei dati è presente un particolare dato",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Di generare un evento ogni volta che sul bus dei dati è presente un particolare dato"
+  },
+  {
+    "question": "Uno svantaggio nell’utilizzo del polling come meccanismo di gestione dell’I/O è",
+    "options": [
+      "Un nodo che deve trasmettere aspetta per tutto il tempo che serve fino a quando trova il canale libero",
+      "Lo spreco di cicli di CPU per attesa attiva",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Lo spreco di cicli di CPU per attesa attiva"
+  },
+  {
+    "question": "In un sistema di I/O gestito con il polling, il max throughput di I/O ottenibile...",
+    "options": [
+      "E’ direttamente proporzionale al valore Ttr",
+      "Dipende da W",
+      "Non dipende da W",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Dipende da W"
+  },
+  {
+    "question": "In un sistema di I/O gestito con il polling, la massima frequenza di segnale fMAX[segnale] acquisibile...",
+    "options": [
+      "E’ inversamente proporzionale al valore Ttr",
+      "Non dipende da W",
+      "Non dipende da Xm",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "E’ inversamente proporzionale al tempo di trasferimento"
+  },
+  {
+    "question": "In un sistema di I/O gestito con il DMA, architettura Harvard, f = 0.25, il max throughput di I/O ottenibile scambiando N bytes...",
+    "options": [
+      "inversamente proporzionale al valore Ttr_dma",
+      "E’ almeno il doppio di quello ottenibile con f = 0",
+      "E’ direttamente proporzionale a N",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "inversamente proporzionale al valore Ttr_dma"
+
+  },
+  {
+    "question": "In un sistema di I/O con interrupt, la massima frequenza di segnale fMAX[segnale] acquisibile...",
+    "options": [
+      "E’ pari al (max) throughput di I/O che si può scambiare",
+      "Non dipende dall’interrupt overhead W",
+      "Non dipende da Ttr",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Nessuna delle altre opzioni"
+  },
+  {
+    "question": "In un sistema di I/O con due sorgenti analogiche caratterizzate dallo stesso valore di fMAX[segnale], assumendo una catena di acquisizione con un unico convertitore A/D...",
+    "options": [
+      "Il max throughput di I/O deve essere almeno minore o uguale a 8*fMAX[segnale] byte/s",
+      "Il max throughput di I/O deve essere almeno minore o uguale a 2*fMAX[segnale] byte/s",
+      "Il max throughput di I/O deve essere almeno minore o uguale a 4*fMAX[segnale] byte/s",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Nessuna delle altre opzioni => Il max throughput di I/O deve essere almeno MAGGIORE O UGUALE a 4*fMAX[segnale] byte/s"
+  },
+  {
+    "question": "In un sistema di I/O con due sorgenti analogiche caratterizzate dallo stesso valore di fMAX[segnale], assumendo una catena di acquisizione con un microcontrollore A/D...",
+    "options": [
+      "Il tempo max di conversione del convertitore deve essere minore o uguale a 1 / (2*fMAX[segnale])",
+      "Il tempo max di conversione del convertitore deve essere minore o uguale a 1 / fMAX[segnale]",
+      "Il tempo max di conversione del convertitore deve essere minore o uguale a 1 / (4*fMAX[segnale])",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Il tempo max di conversione del convertitore deve essere minore o uguale a 1 / (4*fMAX[segnale])"
+  },
+  {
+    "question": "La performance reale di un un sistema di I/O che utilizza il DMA e architettura Harvard...",
+    "options": [
+      "Aumenta all’aumentare di N",
+      "Aumenta all’aumentare di f",
+      "Non dipende da f",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Nessuna delle altre opzioni"
+  },
+  {
+    "question": "Nella gestione dell’I/O con DMA, trasferimento di N bytes, architettura Harvard, f = 0, il Tcpu/dma rispetto al Tio_int/Nbytes^2 ...",
+    "options": [
+      "Diminuisce di un fattore N",
+      "Aumenta di un fattore N",
+      "Diminuisce di un fattore N/2",
+      "Aumenta di un fattore N"
+    ],
+    "answer": "Diminuisce di un fattore N"
+  },
+  {
+    "question": "Nella gestione dell’I/O per il trasferimento di N bytes con DMA, architettura Harvard e f = 0, il valore di Tcpu/dma...",
+    "options": [
+      "Dipende soltando dal tempo T_int_eot",
+      "E’ proporzionale a N",
+      "E’ indipendente da N",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "E’ indipendente da N"
+  },
+  {
+    "question": "In un sistema di I/O gestito con il DMA, architettura Harvard, f = 0.25, il max throughput di I/O ottenibile scambiando N bytes...",
+    "options": [
+      "E’ inversamente proporzionale al valore Ttr_dma",
+      "E’ almeno il doppio di quello ottenibile con f = 0",
+      "E’ direttamente proporzionale a N",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Nessuna delle altre opzioni"
+  },
+  {
+    "question": "In un sistema di I/O gestito con il DMA, architettura Harvard, f = 0, il max throughput di I/O ottenibile scambiando N bytes...",
+    "options": [
+      "Dipende da N e da S",
+      "Non dipende da S",
+      "Non dipende da N",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Dipende da N e da S"
+  },
+  {
+    "question": "L'interfaccia SPI (Serial Peripheral Interface)...",
+    "options": [
+      "E’ basata su bus",
+      "E’ Parallela ",
+      "E’ punto-punto",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "E’ punto-punto",
+    "high probability": true
+  },
+  {
+    "question": "In un'interfaccia SPI, il master...",
+    "options": [
+      "Seleziona uno slave mediante un segnale apposito (SS)",
+      "Può comunicare simultaneamente ad un insieme di destinatari",
+      "Comunica a tutti i destinatari, ma solo lo slave che riconosce proprio indirizzo risponde",
+      "Seleziona uno slave pilotando il segnale di clock"
+    ],
+    "answer": "Seleziona uno slave mediante un segnale apposito (SS)",
+    "high probability": true
+  },
+  {
+    "question": "Si utilizzi il DMA come sistema di gestione dell’I/O. Quale delle seguenti opzioni e vera?",
+    "options": [
+      "Solo nel caso di utilizzo dell’architettura Harvard si ottiene un minore tempo di trasferimento rispetto alla gestione con interrupt",
+      "Solo nel caso di utilizzo dell’architettura Harvard con zero conflitti risulta: Tio_dma(Nbyte) < Tio_int",
+      "Tio_dma < Tio_int(Nbyte)",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Tio_dma < Tio_int(Nbyte)",
+    "high probability": true
+  },
+  {
+    "question": "Considerando una gestione del sistema di I/O per trasferire N Byte con DMA, architettura Harvard, zero conflitti, quale delle seguenti opzioni è vera?",
+    "options": [
+      "Tio_dma(Nbyte) non dipende dal numero di byte da trasferire",
+      "Tio_dma(Nbyte) dipende solo dal parametro s = (Tio_int)//Ttr_dma)",
+      "Il throughput di I/O, in byte/s, f_io_dma è direttamente proporzionale al Ttr_dma",
+      "Nessuna delle precedenti"
+    ],
+    "answer": "Nessuna delle precedenti",
+    "high probability": true
+  },
+  {
+    "question": "Protocollo MAC IEEE 802.15.4: quali fra le seguenti opzioni è vera?",
+    "options": [
+      "La modalità Beacon Enabled può riservare nel CAP uno slot per l’accesso di un nodo designato e viene utilizzata anche in sistemi IOT IP compliant",
+      "La modalità Beacon Enabled è l’unica che consente contemporaneamente un random access e un guaranteed access al canale",
+      "Fra gli slot GTS qualcuno può essere destinato per accesso random",
+      "Nessuna delle precedenti"
+    ],
+    "answer": "La modalità Beacon Enabled è l’unica che consente contemporaneamente un random access e un guaranteed access al canale",
+    "high probability": true
+  },
+  {
+    "question": "Con riferimento al protocollo di accesso IEEE 802.15.4 BeaconEnabled mode attivato, dire quale fra le seguenti opzioni è vera?",
+    "options": [
+      "Il Contention Free Period prevede slot con random access",
+      "Il Contention Free Period prevede sia slot riservati sia slot con random access",
+      "Il Contention Free Period prevede alternativamente slot riservati e slot con random access",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Nessuna delle altre opzioni (perchè prevede slot riservati e basta)",
+    "high probability": true
+  },
+  {
+    "question": "Nel protocollo BLE, dire quale delle seguenti affermazioni è vera",
+    "options": [
+      "Si può supportare traffico asincrono e sincrono",
+      "Si può utilizzare la modalita BLE CODED and FEC per estendere il raggio di copertura senza sacrificare in alcun modo la bit rate",
+      "Si può utilizzare la modalita BLE CODED and FEC per estendere il raggio di copertura fino a 4 volte ma penalizzando la bit rate",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Si può utilizzare la modalita BLE CODED and FEC per estendere il raggio di copertura fino a 4 volte ma penalizzando la bit rate",
+    "high probability": true
+  },
+  {
+    "question": "Considerando uno scenario applicativo all’internet of energy (IoE), dire quale fra le seguenti affermazioni è vera:",
+    "options": [
+      "I veicoli elettrici (EV) avrebbero solo il ruolo di load rispetto alla rete",
+      "I veicoli elettrici (EV) avrebbero solo il ruolo di provider di energia alla rete",
+      "Non avrebbe senso sfruttrare l’energia della batteria del veicolo elettrico per immetterla nella rete elettrica",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "Nessuna delle opzioni riportate",
+    "high probability": true
+  },
+  {
+    "question": "Considerando uno scenario applicativo all’internet of energy (IoE), dire quale fra le seguenti affermazioni è vera:",
+    "options": [
+      "I veicoli elettrici (EV) possono agire come sink o source di energia in base al loro charge status",
+      "I veicoli elettrici (EV) non giocherebbero ruoli particolari nell’IoE, avrebbero solo il ruolo di veicoli elettrici.",
+      "I veicoli elettrici (EV) possono agire come sink o source of energy indipendentemente dal loro charge status",
+      "Nessuna delle opzioni riportate"
+    ],
+    "answer": "I veicoli elettrici (EV) possono agire come sink o source di energia in base al loro charge status",
+    "high probability": true
+  },
+  {
+    "question": "In uno scenario di Big Data...",
+    "options": [
+      "Un DBMS relazionale è l’unica scelta possibile per processare le grandi quantità in gioco",
+      "L’analisi predittiva consente di rispondere alla domanda: what is happening?",
+      "L’analisi predittiva consente di rispondere alla domanda: why did it happen?",
+      "L’analisi predittiva consente di rispondere alla domanda: what is likely to happen"
+    ],
+    "answer": "L’analisi predittiva consente di rispondere alla domanda: what is likely to happen",
+    "high probability": true
+  },
+  {
+    "question": "In uno scenario IOT in cui una grossa mole di dati Big Data viene prodotta e inviata al cloud, scegliere quale delle seguenti affermazioni è quella corretta nell’ambito di Big data analytics",
+    "options": [
+      "Il MIST computing aiuta a diminuire la latenza in ambienti che richiedono bassi valori di response time",
+      "L’utilizzo del MIST computing è incompatibile con il fog computing",
+      "L’utilizzo del MIST computing ha come svantaggio l’incremento di traffico verso il Cloud",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Il MIST computing aiuta a diminuire la latenza in ambienti che richiedono bassi valori di response time",
+    "high probability": true
+  },
+  {
+    "question": "In uno scenario in cui una grossa mole di dati Big Data viene prodotta e inviata al cloud, scegliere quali delle seguenti affermazioni è quella corretta",
+    "options": [
+      "Il 3V Concept fa riferimento a Velocity, Volume, Value",
+      "Il 3V Concept fa riferimento a Velocity, Volume, Veridicity",
+      "Il 5V Concept include Veridicity, Value, Volume",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "'Nessuna delle altre opzioni' se è vero che veridicity e veracity sono due cose diverse.. (5V: Volume, Variety, Velocity, Value, Veracity)",
+    "high probability": true
+  },
+  {
+    "question": "In uno scenario in cui i dati di un sistema IoT vengono inviati al cloud, scegliere quali delle seguenti affermazioni è quella corretta",
+    "options": [
+      "Il cloud garantisce normalmente basse latenze anche al crescere del traffico generato dai sistemi IoT verso il cloud",
+      "il costo di comunicazione potrebbe essere eccessivo se tutti i dati dei sensori fossero inviati al cloud (power constraints dei nodi)",
+      "Eseguire il preprocessing dei dati acquisiti dai sensori prima di inviarli al cloud risolve sempre il problema della elevata latenza di risposta generata dal cloud",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "il costo di comunicazione potrebbe essere eccessivo se tutti i dati dei sensori fossero inviati al cloud (power constraints dei nodi)",
+    "high probability": true
+  },
+  {
+    "question": "In uno scenario IoT di smart agricolture dove occorre coprire distanze dell’ordine dei 10 km fra nodo sensore e gateway...",
+    "options": [
+      "Si utilizza il protocollo zig bee",
+      "Si utilizza il protocollo IEEE 802.15.4",
+      "Si utilizza LoRA",
+      "Nessuna delle precedenti"
+    ],
+    "answer": "Si utilizza la LoRA",
+    "high probability": true
+  },
+  {
+    "question": "Si consideri il protocollo applicativo CoAP. Quale fra le seguenti opzioni è quella corretta",
+    "options": [
+      "Il CoAP e stato progettato per sfruttare le caratteristiche del TCP",
+      "Nello stack protocollare, sono sempre presenti il livello di Network (IPv4 o IPv6) e UDP",
+      "Non c’e un vincolo particolare sullo stack protocollare",
+      "Nessuna delle precedenti"
+    ],
+    "answer": "Nello stack protocollare, sono sempre presenti il livello di Network (IPv4 o IPv6) e UDP",
+    "high probability": true
+  },
+  {
+    "question": "Si consideri il protocollo applicativo CoAP. Quale fra le seguenti opzioni è quella corretta",
+    "options": [
+      "Un messaggio confirmable può trasportare soltanto una request",
+      "Un messaggio confirmable non sempre deve ricevere un’ACK",
+      "Un messaggio confirmable può trasportare sia una request che una response",
+      "Nessuna delle precedenti"
+    ],
+    "answer": "Un messaggio confirmable può trasportare sia una request che una response",
+    "high probability": true
+  },
+  {
+    "question": "In uno scenario in cui in un sistema IOT sia presente il cloud, scegliere quali delle seguenti affermazioni è quella corretta:",
+    "options": [
+      "L’utilizzo di MIST computing esclude che il preprocessamento dei dati sia svolto per abbattere i costi di comunicazione, mentre migliora la performance",
+      "La presenza dei nodi del mist computing nell’architettura può migliorare le performance real time del sistema IOT",
+      "Il preprocessing sposta il processamento in real time dai nodi fog al cloud",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "La presenza dei nodi del mist computing nell’architettura può migliorare le performance real time del sistema IOT",
+    "high probability": true
+  },
+  {
+    "question": "Con riferimento al protocollo applicativo MQTT, dire quale fra le seguenti opzioni è vera",
+    "options": [
+      "Il pubblisher in un messaggio di publish può inserire diversi topic",
+      "Il publisher può pubblicare indicando un solo topic name",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Il publisher può pubblicare indicando un solo topic name",
+    "high probability": true
+  },
+  {
+    "question": "Con riferimento al protocollo applicativo MQTT, dire quale fra le seguenti opzioni è vera",
+    "options": [
+      "Il pubblisher non conosce i propri sottoscrittori",
+      "Il pubblisher in un messaggio di publish può inserire diversi topic",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Il pubblisher non conosce i propri sottoscrittori",
+    "high probability": true
+  },
+  {
+    "question": "In uno scenario in cui in un sistema IOT sia presente il cloud, scegliere quali delle seguenti affermazioni è quella corretta:",
+    "options": [
+      "Il preprocessing è la strada da seguire per superare i limiti che il cloud pone all’IoT",
+      "Il MIST computing vanifica la presenza dei nodi fog",
+      "Il preprocessing serve soltanto a sfruttare al meglio le caratteristiche presenti sul nodo IoT",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Il preprocessing è la strada da seguire per superare i limiti che il cloud pone all’IoT",
+    "high probability": true
+  },
+  {
+    "question": "In una architettura IoT, dire quale fra le seguenti opzioni è vera",
+    "options": [
+      "Il Middleware serve soprattutto a fare lo storage dei dati prodotti dai sensori",
+      "Il Middleware aiuta soprattutto a filtrare i dati prodotti dai sensori",
+      "Il Middleware fornisce API al livello applicativo fornendo una visione astratta dei dettagli implementativi dei livelli più bassi come quello di perception",
+      "Nessuna delle precedenti"
+    ],
+    "answer": "Il Middleware fornisce API al livello applicativo fornendo una visione astratta dei dettagli implementativi dei livelli più bassi come quello di perception",
+    "high probability": true
+  },
+  {
+    "question": "In un sistema di interfaccia Cyber-Physical in cui sono presenti N sorgenti analogiche, ciascuna caratterizzata da fi_max = Ki , un MPX analogico N:1 e a valle del MPX un Sample &Hold e un unico convertitore A/D. Dire quale delle seguenti opzioni è vera:",
+    "options": [
+      "Il massimo fra i tempi di campionamento determina il minimo tempo di conversione del convertitore",
+      "Il tempo di conversione del convertitore A/D deve essere almeno minore del minimo tra i valori {1/fi_max}",
+      "Il tempo di conversione Tc del convertitore A/D => Tc < 1 / 2*kMax; dove kmax = max{Fi,max} con i = [1,...,N]",
+      "Nessuna delle precedenti"
+    ],
+    "answer": "Il tempo di conversione Tc del convertitore A/D Tc < 1 / 2*kMax dove kmax = max{Fi,max} con i = [1,...,N]",
+    "high probability": true
+  },
+  {
+    "question": "In un sistema IoT in cui sono presenti N sorgenti analogiche tutte caratterizzate dalla fi_max = K , con i = [1,...,N], il tempo di conversione Tc del convertitore A/D a valle del MPX nanalogico N:1 deve:",
+    "options": [
+      "Essere minore di 1/2k",
+      "Essere minore di 1/2NK",
+      "Essere minore di 1/NK",
+      "Nessuna delle precedenti"
+    ],
+    "answer": "Essere minore di 1/2NK",
+    "high probability": true
+  },
+  {
+    "question": "Si utilizzi l'interrupt come tecnica per la gestione dell’I/O. Quale delle seguenti opzioni è vera?",
+    "options": [
+      "Il vettore di interrupt serve a gestire in modo più efficiente la priorità",
+      "Il vettore di interrupt viene sempre generato dalla CPU",
+      "Il vettore di interrupt serve a identificare la ISR da gestire",
+      "Nessuna delle precedenti"
+    ],
+    "answer": "Il vettore di interrupt serve a identificare la ISR da gestire",
+    "high probability": true
+  },
+  {
+    "question": "Assumendo una gestione del sistema di I/O con polling, con Ttr = 100 microsecondi; Calcolare il minimo valore di η_poll, affinchè si possano acquisire 5 sorgenti analogiche, ciascuna caratterizzata da una fMAX[segnale] = 0.3 kbyte/s",
+    "options": [
+      "0.13",
+      "0.15",
+      "0.3",
+      "0.27"
+    ],
+    "answer": "0.3",
+    "solution": "solutions/b8b76bb7-86fd-4503-ba7d-714ff3fb1382.png"
+  },
+  {
+    "question": "Sia dato un sistema IoT in cui si voglia valutare la massima frequenza di un segnale acquisibile da una sorgente analogica, espressa in byte/s. Assumendo una gestione del sistema di I/O con polling, con Ttr = 100 microsecondi e η_poll = 0.5",
+    "options": [
+      "0.015 * 10^3 byte/s",
+      "0.15 * 10^3 byte/s",
+      "0.25 * 10^4 byte/s",
+      "0.11 * 10^3 byte/s"
+    ],
+    "answer": "0.25 * 10^4 byte/s",
+    "solution": "solutions/ac404716-66f3-4c89-910b-ca398bc42e29.png"
+  },
+  {
+    "question": "Sia dato un sistema IoT in cui si voglia valutare la massima frequenza di un segnale acquisibile da una sorgente analogica, espressa in byte/sec. Assumendo una gestione del sistema di I/O con Interrupt, con Tisr = 100 microsecondi e W = 0.1",
+    "options": [
+      "0.22 * 10^5 byte/s",
+      "0.45 * 10^4 byte/s",
+      "0.32 * 10^3 byte/s",
+      "0.045 * 10^3 byte/s"
+    ],
+    "answer": "0.45 * 10^4 byte/s",
+    "solution": "solutions/7502a9ad-b225-4fce-b85b-c9ca3e278a52.png"
+  },
+  {
+    "question": "Assumendo una gestione del sistema di I/O con Interrupt, con Tisr = 100 microsecondi, calcolare il valore massimo di W affinchè si possano acquisire 10 sorgenti analogiche, ciascuna caratterizzata da una fMAX[segnale] = 0.3 Kbyte/s",
+    "options": [
+      "0.81",
+      "0.73",
+      "0.5",
+      "0.66"
+    ],
+    "answer": "0.66",
+    "solution": "solutions/8b453029-3733-4e8f-913b-fba28243783e.png"
+  },
+  {
+    "question": "Assumendo una gestione con DMA, architettura Harvard, zero conflitti (f = 0),  calcolare il valore di Ttr_dma per acquisire 100 sorgenti ciascuna caratterizzata da una fMAX[segnale] = 0.3 Kbyte/s; nel calcolo si assuma che N/S+N = (circa) 1",
+    "options": [
+      "80 microsecondi",
+      "15.8 microsecondi",
+      "22 microsecondi",
+      "16.6 microsecondi"
+    ],
+    "answer": "16.6 microsecondi",
+    "solution": "solutions/cc195e45-3ceb-40af-a044-83493bf60542.png"
+  },
+  {
+    "question": "Sia dato un sistema IoT in cui si voglia valutare la massima frequenza di segnale acquisibile da una sorgente analogica, espressa in byte/sec. Assumendo una gestione del sistema di I/O con DMA, architettura Harvard, f = 0.25, Ttr_dma = 10 microsecondi, S = 10, N = 10^6, Tload/store = 2Ttr_dma e DMA WAITS FOR CPU, indicare la risposta corretta",
+    "options": [
+      "3.33 * 10^4 byte/s",
+      "33 * 10^6 byte/s",
+      "2.3 * 10^3 byte/s",
+      "25 * 10^4 byte/s"
+    ],
+    "answer": "3.33 * 10^4 byte/s",
+    "solution": "solutions/628616fb-c70d-4da8-8599-3d66b8e1121c.png"
+  },
+  {
+    "question": "Assumendo una gestione con DMA, architettura Harvard, f = 0.25, una politica CPU WAITS FOR DMA, calcolare il valore di TTR_DMA per acquisire 100 sorgenti ciascuna caratterizzata da fMAX[segnale] = 0.3Kbyte/s. Nel calcolo si assuma che N/(N+S) = (circa) 1",
+    "options": [
+      "0.0166ms",
+      "0.166ms",
+      "166ms",
+      "0.00166ms"
+    ],
+    "answer": "0.0166ms",
+    "solution": "solutions/e7e3b996-f7da-11ec-b939-0242ac120002.png"
+  },
+  {
+    "question": "Si voglia calcolare in un sistema IOT, il miglioramento delle prestazioni ottenibili passando da una gestione dell’I/O con Polling a quella con interrupt. Il sistema originario sia gestito con il polling e il tempo di esecuzione dell’intera applicazione, (Tapp), sia pari a un secondo incluso il tempo di I/O per trasferire 1000 byte. Si considerino i seguenti dati: Polling, con i parametri: Ttr = 100 microsecondi; Xm = 9; W = 0.3; Tapp = 1s. Interrupt, con i parametri: Tisr = Ttr = 100 microsecondi; W = 0,3.",
+    "options": [
+      "1.46",
+      "1.37",
+      "1.9",
+      "0.5"
+    ],
+    "answer": "SVOLGIMENTO:",
+    "solution": "solutions/eff32f8c-7469-4626-bc94-54177f7a7e2b.png"
+  },
+  {
+    "question": "Gestire acquisizione burst di dati con un tempo di interarrivo variabile con valore massimo 100 microsecondi; ogni burst è di 1 Mbyte e dura 1 s con una fpicco = 1 Mbyte/s",
+    "options": [
+      "..."
+    ],
+    "answer": "SOLUZIONE COI DIVERI CASI:",
+    "solution": "solutions/b0a96336-0635-4c27-9a31-3f1247ef64a1.png"
+  },
+  {
+    "question": "In un sistema IoT occorre gestire l’acquisizione di un burst di dati con tempo di silenzio toff = 50 microsecondi. Ogni burst ha una durata Ton che varia da 0.1s a 4s. In ciascun periodo Ton arrivano sempre 2MB, con arrivi distribuiti uniformemente. Assumendo una gestione con DMA, architettura Harvard, f = 0.25, Tdmaprog + Teot = 50 microsecondi, CALCOLARE il valore di Ttr_dma_max per smaltire il traffico bursty correttamente",
+    "options": [
+      "0.5 * 10^-7 s/byte",
+      "1.5 * 10^-6 s/byte",
+      "0.25 * 10^-6 s/byte",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "0.5 * 10^-7 s/byte",
+    "solution": "solutions/d432825a-327a-42fc-83c2-d6e450c6ac62.png"
+  },
+  {
+    "question": "In un sistema IoT occorre gestire l’acquisizione di un burst di dati con tempo di silenzio toff = 50 microsecondi. Ogni burst ha una durata Ton che varia da 0.1s a 4s. In ciascun periodo Ton arrivano sempre 2MB, con arrivi distribuiti uniformemente. Assumendo una gestione con iterrupt e overhead W = 0.3, CALCOLARE il valore massimo Tisr per acquisire correttamente i dati del traffico bursty sopra descritto",
+    "options": [
+      "3.8 * 10^-8 s/byte",
+      "25 * 10^-5 s/byte",
+      "0.01 * 10^-6 s/byte",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "3.8 * 10^-8 s/byte",
+    "solution": "solutions/0ab725ad-40c1-47a5-81ab-ee5d96365b66.png"
+  },
+  {
+    "question": "In un sistema IoT occorre gestire l’acquisizione di un burst di dati con tempo di silenzio toff = 50 microsecondi. Ogni burst ha una durata Ton che varia da 0.1s a 4s. In ciascun periodo Ton arrivano sempre 2MB, con arrivi distribuiti uniformemente. Assumendo una gestione con polling, overhead W = 0.1 e Xm = 100, CALCOLARE il valore massimo Ttr affinchè possa essere smaltito correttamente il traffico bursty nell’ipotesi di t_on_min = 1s",
+    "options": [
+      "3.8 * 10^-8 s/byte",
+      "0.045 * 10^-6 s/byte",
+      "0.01 * 10^-6 s/byte",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "0.045 * 10^-6 s/byte",
+    "solution": "solutions/79344766-f912-11ec-b939-0242ac120002.png"
+  },
+  {
+    "question": "In un sistema di I/O con interrupt, la massima frequenza di segnale fMAX[segnale] acquisibile...",
+    "options": [
+      "Non dipende da TISR",
+      "Dipende dall’interrupt overhead W",
+      "E’ pari al max throughput di I/O che si può scambiare",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Dipende dall’interrupt overhead W"
+  },
+  {
+    "question": "Con riferimento al protocollo di accesso IEEE 802.15.4...",
+    "options": [
+      "Viene utilizzato come livello di MAC anche in sistemi IOT IP compliant",
+      "Viene utilizzato come livello di MAC esclusivamente in sistemi IOT IP compliant",
+      "Non è previsto alcun accesso schedulato",
+      "Viene utilizzato come livello di MAC esclusivamente in sistemi Zig BEE"
+    ],
+    "answer": "Viene utilizzato come livello di MAC anche in sistemi IOT IP compliant"
+  },
+  {
+    "question": "In un’interfaccia I2C, il significato del valore che si trova nel segnale SDA",
+    "options": [
+      "Dipende dal livello di tensione analogico che si trova su SDA",
+      "Serve a selezionare lo slave con cui il mater vuole comunicare",
+      "Dipende dalla frequenza di oscillazione del segnale, ogni frequenza avente un significato diverso",
+      "Dipende dal valore attuale del segnale di clock SCI"
+    ],
+    "answer": "Dipende dal valore attuale del segnale di clock SCI"
+  },
+  {
+    "question": "Uno stato meta stabile...",
+    "options": [
+      "Consiste nel fatto che l’output del microcontrollore è stabile per la metà del periodo di clock",
+      "Rappresenta la meta finale di un processo di stabilità",
+      "Consiste in uno stato oscillante nel quale il microcontrollore si comporta non deterministicamente",
+      "Nessuna delle altre opzioni"
+    ],
+    "answer": "Consiste in uno stato oscillante nel quale il microcontrollore si comporta non deterministicamente"
+  },
+  {
+    "question": "In Arduino, per impostare un pin come output...",
+    "options": [
+      "Si imposta un apposito valore nella funzione attachInterrupts",
+      "Si imposta un apposito valore nella funzione analogReg",
+      "Si imposta un apposito valore nella funzione digitalReg",
+      "Nessuna delle precedenti (il comando è 'pinMode(pin, OUTPUT)')"
+    ],
+    "answer": "Nessuna delle precedenti"
+  },
+  {
+    "question": "Con riferimento al protocollo applicativo MQTT, dire quale fra le seguenti opzioni è vera",
+    "options": [
+      "il broker serve soltanto a stabilire una connessione fra pubblisher e subscriber",
+      "il pubblisher tiene una lista di tutti i subscriber interessati ad un topic cui inviare le relative pubblish su quel topic",
+      "Usando il livello di QoS – 2 un messaggio viene sempre consegnato a destinazione evitando in modo certo le dublicazioni",
+      "Nessuna delle precedenti"
+    ],
+    "answer": "Nessuna delle precedenti"
+  }
+]
