@@ -626,7 +626,7 @@
       "Non dipende da Xm",
       "Nessuna delle altre opzioni"
     ],
-    "answer": "E’ inversamente proporzionale al tempo di trasferimento"
+    "answer": "E’ inversamente proporzionale al valore Ttr"
   },
   {
     "question": "In un sistema di I/O gestito con il DMA, architettura Harvard, f = 0.25, il max throughput di I/O ottenibile scambiando N bytes...",
@@ -766,7 +766,7 @@
   {
     "question": "Protocollo MAC IEEE 802.15.4: quali fra le seguenti opzioni è vera?",
     "options": [
-      "La modalità Beacon Enabled può riservare nel CAP uno slot per l’accesso di un nodo designato e viene utilizzata anche in sistemi IOT IP compliant",
+      "La modalità Beacon Enabled può riservare nel CAP uno slot per l’accesso di un nodo designato",
       "La modalità Beacon Enabled è l’unica che consente contemporaneamente un random access e un guaranteed access al canale",
       "Fra gli slot GTS qualcuno può essere destinato per accesso random",
       "Nessuna delle precedenti"
@@ -1066,7 +1066,7 @@
       "1.9",
       "0.5"
     ],
-    "answer": "SVOLGIMENTO:",
+    "answer": "1.37",
     "solution": "solutions/eff32f8c-7469-4626-bc94-54177f7a7e2b.png"
   },
   {
@@ -1156,9 +1156,9 @@
       "Si imposta un apposito valore nella funzione attachInterrupts",
       "Si imposta un apposito valore nella funzione analogReg",
       "Si imposta un apposito valore nella funzione digitalReg",
-      "Nessuna delle precedenti (il comando è 'pinMode(pin, OUTPUT)')"
+      "Nessuna delle precedenti"
     ],
-    "answer": "Nessuna delle precedenti"
+    "answer": "Nessuna delle precedenti (il comando è 'pinMode(pin, OUTPUT)')"
   },
   {
     "question": "Con riferimento al protocollo applicativo MQTT, dire quale fra le seguenti opzioni è vera",
