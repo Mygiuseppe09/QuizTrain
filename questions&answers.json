@@ -707,7 +707,7 @@
       "E’ direttamente proporzionale a N",
       "Nessuna delle altre opzioni"
     ],
-    "answer": "Nessuna delle altre opzioni"
+    "answer": "E’ inversamente proporzionale al valore Ttr_dma"
   },
   {
     "question": "In un sistema di I/O gestito con il DMA, architettura Harvard, f = 0, il max throughput di I/O ottenibile scambiando N bytes...",
